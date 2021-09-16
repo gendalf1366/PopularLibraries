@@ -1,22 +1,14 @@
 package ru.gendalf13666.popularlibraries
 
-class MainPresenter(val view: MainView) {
-    val model = CountersModel()
+class MainPresenter(private val view: MainView) {
 
-    fun counterClick(id: Int) {
-        when (id) {
-            R.id.btn_counter1 -> {
-                val nextValue = model.next(0)
-                view.setButtonText(0, nextValue.toString())
-            }
-            R.id.btn_counter2 -> {
-                val nextValue = model.next(1)
-                view.setButtonText(1, nextValue.toString())
-            }
-            R.id.btn_counter3 -> {
-                val nextValue = model.next(2)
-                view.setButtonText(2, nextValue.toString())
-            }
+    private val model = CountersModel()
+
+    fun counterClick(buttonCounterNumber: Numbers) {
+        when (buttonCounterNumber) {
+            Numbers.ONE -> view.setButton1Text(model.next(0).toString())
+            Numbers.TWO -> view.setButton2Text(model.next(1).toString())
+            Numbers.THREE -> view.setButton3Text(model.next(2).toString())
         }
     }
 }
