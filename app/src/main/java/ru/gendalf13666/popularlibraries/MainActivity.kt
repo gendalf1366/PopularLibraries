@@ -30,15 +30,15 @@ class MainActivity : AppCompatActivity(), MainView {
         }
     }
 
-    override fun setButton1Text(text: String) {
-        binding.buttonCounter1.text = text
+    override fun showCounter1(counter: String) {
+        binding.buttonCounter1.text = counter
     }
 
-    override fun setButton2Text(text: String) {
-        binding.buttonCounter2.text = text
+    override fun showCounter2(counter: String) {
+        binding.buttonCounter2.text = counter
     }
 
-    override fun setButton3Text(text: String) {
-        binding.buttonCounter3.text = text
+    override fun showCounter3(counter: String) {
+        binding.buttonCounter3.text = counter
     }
 }
