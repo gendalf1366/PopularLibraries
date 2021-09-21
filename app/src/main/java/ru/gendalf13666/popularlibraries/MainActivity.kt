@@ -1,36 +1,44 @@
 package ru.gendalf13666.popularlibraries
 
 import android.os.Bundle
-import android.view.View
-import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
-import ru.gendalf13666.popularlibraries.R.layout.activity_main
+import ru.gendalf13666.popularlibraries.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity(activity_main), MainView {
+class MainActivity : AppCompatActivity(), MainView {
 
-    val presenter = MainPresenter(this)
+    private lateinit var binding: ActivityMainBinding
 
-    private val btn_counter1: Button by lazy { findViewById(R.id.btn_counter1) }
-    private val btn_counter2: Button by lazy { findViewById(R.id.btn_counter2) }
-    private val btn_counter3: Button by lazy { findViewById(R.id.btn_counter3) }
+    private val presenter = MainPresenter(this)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-        val listener = View.OnClickListener {
-            presenter.counterClick(it.id)
-        }
-
-        btn_counter1.setOnClickListener(listener)
-        btn_counter2.setOnClickListener(listener)
-        btn_counter3.setOnClickListener(listener)
+        setButtonClickListener()
     }
 
-    override fun setButtonText(index: Int, text: String) {
-        when (index) {
-            0 -> btn_counter1.text = text
-            1 -> btn_counter2.text = text
-            2 -> btn_counter3.text = text
+    private fun setButtonClickListener() {
+        binding.buttonCounter1.setOnClickListener {
+            presenter.counterClick(Numbers.ONE)
         }
+        binding.buttonCounter2.setOnClickListener {
+            presenter.counterClick(Numbers.TWO)
+        }
+        binding.buttonCounter3.setOnClickListener {
+            presenter.counterClick(Numbers.THREE)
+        }
+    }
+
+    override fun showCounter1(counter: String) {
+        binding.buttonCounter1.text = counter
+    }
+
+    override fun showCounter2(counter: String) {
+        binding.buttonCounter2.text = counter
+    }
+
+    override fun showCounter3(counter: String) {
+        binding.buttonCounter3.text = counter
     }
 }
