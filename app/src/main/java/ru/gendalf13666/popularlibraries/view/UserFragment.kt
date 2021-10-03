@@ -35,8 +35,7 @@ class UserFragment : MvpAppCompatFragment(R.layout.fragment_user), UserView {
 
     override fun showUser(user: GithubUserViewModel) {
         binding.apply {
-            tvLogin.text = user.login
-            tvLogin.setStartDrawableCircleImageFromUri(user.avatar_url)
+            activity?.title = user.login
         }
     }
 
