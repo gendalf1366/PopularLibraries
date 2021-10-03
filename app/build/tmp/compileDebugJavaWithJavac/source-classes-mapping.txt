@@ -1,0 +1,32 @@
+ru/gendalf13666/popularlibraries/presenter/UsersPresenter$$ViewStateProvider.java
+ ru.gendalf13666.popularlibraries.presenter.UsersPresenter$$ViewStateProvider
+ru/gendalf13666/popularlibraries/databinding/FragmentUsersBinding.java
+ ru.gendalf13666.popularlibraries.databinding.FragmentUsersBinding
+ru/gendalf13666/popularlibraries/view/UserView$$State.java
+ ru.gendalf13666.popularlibraries.view.UserView$$State
+ ru.gendalf13666.popularlibraries.view.UserView$$State$InitCommand
+ ru.gendalf13666.popularlibraries.view.UserView$$State$ShowRepoCommand
+ ru.gendalf13666.popularlibraries.view.UserView$$State$ShowToastCommand
+ ru.gendalf13666.popularlibraries.view.UserView$$State$ShowUserCommand
+ ru.gendalf13666.popularlibraries.view.UserView$$State$UpdateReposCommand
+ru/gendalf13666/popularlibraries/databinding/ActivityMainBinding.java
+ ru.gendalf13666.popularlibraries.databinding.ActivityMainBinding
+ru/gendalf13666/popularlibraries/view/MainView$$State.java
+ ru.gendalf13666.popularlibraries.view.MainView$$State
+ru/gendalf13666/popularlibraries/databinding/ViewItemUserRepoBinding.java
+ ru.gendalf13666.popularlibraries.databinding.ViewItemUserRepoBinding
+ru/gendalf13666/popularlibraries/databinding/ViewItemUserBinding.java
+ ru.gendalf13666.popularlibraries.databinding.ViewItemUserBinding
+ru/gendalf13666/popularlibraries/view/UsersView$$State.java
+ ru.gendalf13666.popularlibraries.view.UsersView$$State
+ ru.gendalf13666.popularlibraries.view.UsersView$$State$InitCommand
+ ru.gendalf13666.popularlibraries.view.UsersView$$State$ShowToastCommand
+ ru.gendalf13666.popularlibraries.view.UsersView$$State$UpdateListCommand
+ru/gendalf13666/popularlibraries/BuildConfig.java
+ ru.gendalf13666.popularlibraries.BuildConfig
+ru/gendalf13666/popularlibraries/presenter/UserPresenter$$ViewStateProvider.java
+ ru.gendalf13666.popularlibraries.presenter.UserPresenter$$ViewStateProvider
+ru/gendalf13666/popularlibraries/databinding/FragmentUserBinding.java
+ ru.gendalf13666.popularlibraries.databinding.FragmentUserBinding
+ru/gendalf13666/popularlibraries/presenter/MainPresenter$$ViewStateProvider.java
+ ru.gendalf13666.popularlibraries.presenter.MainPresenter$$ViewStateProvider

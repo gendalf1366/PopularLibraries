@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Programming\\Android\\Lesson\\PopularLibraries\\PopularLibraries\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\view_item_user_repo.xml",
+        "source": "C:\\Programming\\Android\\Lesson\\PopularLibraries\\PopularLibraries\\app\\src\\main\\res\\layout\\view_item_user_repo.xml"
+    },
+    {
+        "merged": "C:\\Programming\\Android\\Lesson\\PopularLibraries\\PopularLibraries\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Programming\\Android\\Lesson\\PopularLibraries\\PopularLibraries\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Programming\\Android\\Lesson\\PopularLibraries\\PopularLibraries\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_users.xml",
+        "source": "C:\\Programming\\Android\\Lesson\\PopularLibraries\\PopularLibraries\\app\\src\\main\\res\\layout\\fragment_users.xml"
+    },
+    {
+        "merged": "C:\\Programming\\Android\\Lesson\\PopularLibraries\\PopularLibraries\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\view_item_user.xml",
+        "source": "C:\\Programming\\Android\\Lesson\\PopularLibraries\\PopularLibraries\\app\\src\\main\\res\\layout\\view_item_user.xml"
+    },
+    {
+        "merged": "C:\\Programming\\Android\\Lesson\\PopularLibraries\\PopularLibraries\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_user.xml",
+        "source": "C:\\Programming\\Android\\Lesson\\PopularLibraries\\PopularLibraries\\app\\src\\main\\res\\layout\\fragment_user.xml"
+    }
+]
