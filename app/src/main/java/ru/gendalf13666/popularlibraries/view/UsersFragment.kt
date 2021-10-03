@@ -11,6 +11,7 @@ import ru.gendalf13666.popularlibraries.databinding.FragmentUsersBinding
 import ru.gendalf13666.popularlibraries.model.repo.GithubUsersRepoFactory
 import ru.gendalf13666.popularlibraries.presenter.BackButtonListener
 import ru.gendalf13666.popularlibraries.presenter.UsersPresenter
+import ru.gendalf13666.popularlibraries.view.adapters.UsersRVAdapter
 
 class UsersFragment : MvpAppCompatFragment(R.layout.fragment_users), UsersView, BackButtonListener {
 

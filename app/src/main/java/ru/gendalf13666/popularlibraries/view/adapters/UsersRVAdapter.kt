@@ -1,10 +1,12 @@
-package ru.gendalf13666.popularlibraries.view
+package ru.gendalf13666.popularlibraries.view.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import ru.gendalf13666.popularlibraries.databinding.ViewItemUserBinding
 import ru.gendalf13666.popularlibraries.presenter.IUserListPresenter
+import ru.gendalf13666.popularlibraries.view.UserItemView
+import ru.gendalf13666.popularlibraries.view.setStartDrawableCircleImageFromUri
 
 class UsersRVAdapter(private val presenter: IUserListPresenter) :
     RecyclerView.Adapter<UsersRVAdapter.ViewHolder>() {

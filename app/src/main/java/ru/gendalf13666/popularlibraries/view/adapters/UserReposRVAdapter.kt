@@ -1,10 +1,11 @@
-package ru.gendalf13666.popularlibraries.view
+package ru.gendalf13666.popularlibraries.view.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import ru.gendalf13666.popularlibraries.databinding.ViewItemUserRepoBinding
 import ru.gendalf13666.popularlibraries.presenter.IUserReposListPresenter
+import ru.gendalf13666.popularlibraries.view.UserRepoItemView
 
 class UserReposRVAdapter(private val presenter: IUserReposListPresenter) :
     RecyclerView.Adapter<UserReposRVAdapter.ViewHolder>() {

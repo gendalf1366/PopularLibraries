@@ -17,8 +17,9 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/user_repos"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-30dp"
+        tools:layout_editor_absoluteY="246dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -14,6 +14,7 @@ import ru.gendalf13666.popularlibraries.databinding.FragmentUserBinding
 import ru.gendalf13666.popularlibraries.model.entity.GithubUserRepo
 import ru.gendalf13666.popularlibraries.model.repo.GithubUsersRepoFactory
 import ru.gendalf13666.popularlibraries.presenter.UserPresenter
+import ru.gendalf13666.popularlibraries.view.adapters.UserReposRVAdapter
 
 class UserFragment : MvpAppCompatFragment(R.layout.fragment_user), UserView {
 

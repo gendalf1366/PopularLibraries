@@ -1,9 +1,9 @@
 package ru.gendalf13666.popularlibraries.model.datasource
 
-import ru.gendalf13666.popularlibraries.model.entity.GithubUser
-import ru.gendalf13666.popularlibraries.model.entity.GithubUserRepo
 import io.reactivex.rxjava3.core.Maybe
 import io.reactivex.rxjava3.core.Single
+import ru.gendalf13666.popularlibraries.model.entity.GithubUser
+import ru.gendalf13666.popularlibraries.model.entity.GithubUserRepo
 
 class CacheUsersDataSourceImpl : CacheUsersDataSource {
 
