@@ -1,27 +1,35 @@
 package ru.gendalf13666.popularlibraries.view
 
+import android.os.Bundle
 import com.github.terrakok.cicerone.androidx.AppNavigator
 import moxy.MvpAppCompatActivity
 import moxy.ktx.moxyPresenter
-import ru.gendalf13666.popularlibraries.App.Navigation.navigatorHolder
-import ru.gendalf13666.popularlibraries.App.Navigation.router
+import ru.gendalf13666.popularlibraries.App
 import ru.gendalf13666.popularlibraries.R
+import ru.gendalf13666.popularlibraries.databinding.ActivityMainBinding
 import ru.gendalf13666.popularlibraries.presenter.BackButtonListener
 import ru.gendalf13666.popularlibraries.presenter.MainPresenter
 
-class MainActivity : MvpAppCompatActivity(R.layout.activity_main), MainView {
+class MainActivity : MvpAppCompatActivity(), MainView {
 
-    private val presenter by moxyPresenter { MainPresenter(router) }
     private val navigator = AppNavigator(this, R.id.container)
+    private var vb: ActivityMainBinding? = null
+    private val presenter by moxyPresenter { MainPresenter(App.router) }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        vb = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(vb?.root)
+    }
 
     override fun onResumeFragments() {
         super.onResumeFragments()
-        navigatorHolder.setNavigator(navigator)
+        App.navigatorHolder.setNavigator(navigator)
     }
 
     override fun onPause() {
-        navigatorHolder.removeNavigator()
         super.onPause()
+        App.navigatorHolder.removeNavigator()
     }
 
     override fun onBackPressed() {
@@ -30,6 +38,6 @@ class MainActivity : MvpAppCompatActivity(R.layout.activity_main), MainView {
                 return
             }
         }
-        presenter.back()
+        presenter.backClicked()
     }
 }
