@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Programming\\Android\\Lesson\\PopularLibraries\\PopularLibraries\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\users_fragment.xml",
+        "source": "C:\\Programming\\Android\\Lesson\\PopularLibraries\\PopularLibraries\\app\\src\\main\\res\\layout\\users_fragment.xml"
+    },
+    {
+        "merged": "C:\\Programming\\Android\\Lesson\\PopularLibraries\\PopularLibraries\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\user_fragment.xml",
+        "source": "C:\\Programming\\Android\\Lesson\\PopularLibraries\\PopularLibraries\\app\\src\\main\\res\\layout\\user_fragment.xml"
+    },
+    {
+        "merged": "C:\\Programming\\Android\\Lesson\\PopularLibraries\\PopularLibraries\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\repository_item_view.xml",
+        "source": "C:\\Programming\\Android\\Lesson\\PopularLibraries\\PopularLibraries\\app\\src\\main\\res\\layout\\repository_item_view.xml"
+    },
+    {
+        "merged": "C:\\Programming\\Android\\Lesson\\PopularLibraries\\PopularLibraries\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\main_item_view.xml",
+        "source": "C:\\Programming\\Android\\Lesson\\PopularLibraries\\PopularLibraries\\app\\src\\main\\res\\layout\\main_item_view.xml"
+    },
+    {
+        "merged": "C:\\Programming\\Android\\Lesson\\PopularLibraries\\PopularLibraries\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\main_activity.xml",
+        "source": "C:\\Programming\\Android\\Lesson\\PopularLibraries\\PopularLibraries\\app\\src\\main\\res\\layout\\main_activity.xml"
+    },
+    {
+        "merged": "C:\\Programming\\Android\\Lesson\\PopularLibraries\\PopularLibraries\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\repository_fragment.xml",
+        "source": "C:\\Programming\\Android\\Lesson\\PopularLibraries\\PopularLibraries\\app\\src\\main\\res\\layout\\repository_fragment.xml"
+    }
+]

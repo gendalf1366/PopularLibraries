@@ -1,0 +1,71 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ru.gendalf13666.pularlibraries"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Programming\Android\Lesson\PopularLibraries\PopularLibraries\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Programming\Android\Lesson\PopularLibraries\PopularLibraries\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Programming\Android\Lesson\PopularLibraries\PopularLibraries\app\src\main\AndroidManifest.xml:4:5-66
+11-->C:\Programming\Android\Lesson\PopularLibraries\PopularLibraries\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Programming\Android\Lesson\PopularLibraries\PopularLibraries\app\src\main\AndroidManifest.xml:5:5-79
+12-->C:\Programming\Android\Lesson\PopularLibraries\PopularLibraries\app\src\main\AndroidManifest.xml:5:22-76
+13
+14    <application
+14-->C:\Programming\Android\Lesson\PopularLibraries\PopularLibraries\app\src\main\AndroidManifest.xml:7:5-25:19
+15        android:name="ru.gendalf13666.popularlibraries.App"
+15-->C:\Programming\Android\Lesson\PopularLibraries\PopularLibraries\app\src\main\AndroidManifest.xml:8:9-60
+16        android:allowBackup="true"
+16-->C:\Programming\Android\Lesson\PopularLibraries\PopularLibraries\app\src\main\AndroidManifest.xml:9:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.6.0] C:\Users\Gendalf13666\.gradle\caches\transforms-2\files-2.1\9c612ea3cf04cd1784652341bdae6b78\core-1.6.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:extractNativeLibs="false"
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Programming\Android\Lesson\PopularLibraries\PopularLibraries\app\src\main\AndroidManifest.xml:10:9-43
+21        android:label="@string/app_name"
+21-->C:\Programming\Android\Lesson\PopularLibraries\PopularLibraries\app\src\main\AndroidManifest.xml:11:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\Programming\Android\Lesson\PopularLibraries\PopularLibraries\app\src\main\AndroidManifest.xml:12:9-54
+23        android:supportsRtl="true"
+23-->C:\Programming\Android\Lesson\PopularLibraries\PopularLibraries\app\src\main\AndroidManifest.xml:13:9-35
+24        android:testOnly="true"
+25        android:theme="@style/Theme.KotlinPopularLibraries" >
+25-->C:\Programming\Android\Lesson\PopularLibraries\PopularLibraries\app\src\main\AndroidManifest.xml:14:9-60
+26        <activity
+26-->C:\Programming\Android\Lesson\PopularLibraries\PopularLibraries\app\src\main\AndroidManifest.xml:15:9-24:20
+27            android:name="ru.gendalf13666.popularlibraries.baselogic.main.MainActivity"
+27-->C:\Programming\Android\Lesson\PopularLibraries\PopularLibraries\app\src\main\AndroidManifest.xml:16:13-88
+28            android:label="@string/app_name"
+28-->C:\Programming\Android\Lesson\PopularLibraries\PopularLibraries\app\src\main\AndroidManifest.xml:17:13-45
+29            android:theme="@style/Theme.KotlinPopularLibraries.NoActionBar" >
+29-->C:\Programming\Android\Lesson\PopularLibraries\PopularLibraries\app\src\main\AndroidManifest.xml:18:13-76
+30            <intent-filter>
+30-->C:\Programming\Android\Lesson\PopularLibraries\PopularLibraries\app\src\main\AndroidManifest.xml:19:13-23:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Programming\Android\Lesson\PopularLibraries\PopularLibraries\app\src\main\AndroidManifest.xml:20:17-69
+31-->C:\Programming\Android\Lesson\PopularLibraries\PopularLibraries\app\src\main\AndroidManifest.xml:20:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Programming\Android\Lesson\PopularLibraries\PopularLibraries\app\src\main\AndroidManifest.xml:22:17-77
+33-->C:\Programming\Android\Lesson\PopularLibraries\PopularLibraries\app\src\main\AndroidManifest.xml:22:27-74
+34            </intent-filter>
+35        </activity>
+36
+37        <service
+37-->[androidx.room:room-runtime:2.3.0] C:\Users\Gendalf13666\.gradle\caches\transforms-2\files-2.1\828019fead31ee44c9073a4a211cd3f6\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
+38            android:name="androidx.room.MultiInstanceInvalidationService"
+38-->[androidx.room:room-runtime:2.3.0] C:\Users\Gendalf13666\.gradle\caches\transforms-2\files-2.1\828019fead31ee44c9073a4a211cd3f6\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
+39            android:directBootAware="true"
+39-->[androidx.room:room-runtime:2.3.0] C:\Users\Gendalf13666\.gradle\caches\transforms-2\files-2.1\828019fead31ee44c9073a4a211cd3f6\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
+40            android:exported="false" />
+40-->[androidx.room:room-runtime:2.3.0] C:\Users\Gendalf13666\.gradle\caches\transforms-2\files-2.1\828019fead31ee44c9073a4a211cd3f6\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
+41    </application>
+42
+43</manifest>

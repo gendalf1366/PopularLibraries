@@ -1,0 +1,115 @@
+ru/gendalf13666/popularlibraries/baselogic/main/MainPresenter$$ViewStateProvider.java
+ ru.gendalf13666.popularlibraries.baselogic.main.MainPresenter$$ViewStateProvider
+ru/gendalf13666/popularlibraries/data/repositories/UserAvatarRepositoryImpl_Factory.java
+ ru.gendalf13666.popularlibraries.data.repositories.UserAvatarRepositoryImpl_Factory
+ru/gendalf13666/popularlibraries/helpers/di/DaggerAppComponent.java
+ ru.gendalf13666.popularlibraries.helpers.di.DaggerAppComponent
+ ru.gendalf13666.popularlibraries.helpers.di.DaggerAppComponent$1
+ ru.gendalf13666.popularlibraries.helpers.di.DaggerAppComponent$2
+ ru.gendalf13666.popularlibraries.helpers.di.DaggerAppComponent$3
+ ru.gendalf13666.popularlibraries.helpers.di.DaggerAppComponent$4
+ ru.gendalf13666.popularlibraries.helpers.di.DaggerAppComponent$Builder
+ ru.gendalf13666.popularlibraries.helpers.di.DaggerAppComponent$MainActivitySubcomponentFactory
+ ru.gendalf13666.popularlibraries.helpers.di.DaggerAppComponent$MainActivitySubcomponentImpl
+ ru.gendalf13666.popularlibraries.helpers.di.DaggerAppComponent$RepositoryFragmentSubcomponentFactory
+ ru.gendalf13666.popularlibraries.helpers.di.DaggerAppComponent$RepositoryFragmentSubcomponentImpl
+ ru.gendalf13666.popularlibraries.helpers.di.DaggerAppComponent$UserFragmentSubcomponentFactory
+ ru.gendalf13666.popularlibraries.helpers.di.DaggerAppComponent$UserFragmentSubcomponentImpl
+ ru.gendalf13666.popularlibraries.helpers.di.DaggerAppComponent$UsersFragmentSubcomponentFactory
+ ru.gendalf13666.popularlibraries.helpers.di.DaggerAppComponent$UsersFragmentSubcomponentImpl
+ru/gendalf13666/popularlibraries/data/db/dao/GithubUserRepositoryDao_Impl.java
+ ru.gendalf13666.popularlibraries.data.db.dao.GithubUserRepositoryDao_Impl
+ ru.gendalf13666.popularlibraries.data.db.dao.GithubUserRepositoryDao_Impl$1
+ ru.gendalf13666.popularlibraries.data.db.dao.GithubUserRepositoryDao_Impl$2
+ ru.gendalf13666.popularlibraries.data.db.dao.GithubUserRepositoryDao_Impl$3
+ru/gendalf13666/popularlibraries/baselogic/user/UserPresenter$$ViewStateProvider.java
+ ru.gendalf13666.popularlibraries.baselogic.user.UserPresenter$$ViewStateProvider
+ru/gendalf13666/popularlibraries/baselogic/userrepositories/RepositoryFragment_MembersInjector.java
+ ru.gendalf13666.popularlibraries.baselogic.userrepositories.RepositoryFragment_MembersInjector
+ru/gendalf13666/popularlibraries/baselogic/userrepositories/RepositoryPresenter_Factory.java
+ ru.gendalf13666.popularlibraries.baselogic.userrepositories.RepositoryPresenter_Factory
+ru/gendalf13666/popularlibraries/baselogic/userrepositories/RepositoryView$$State.java
+ ru.gendalf13666.popularlibraries.baselogic.userrepositories.RepositoryView$$State
+ ru.gendalf13666.popularlibraries.baselogic.userrepositories.RepositoryView$$State$ShowExceptionCommand
+ ru.gendalf13666.popularlibraries.baselogic.userrepositories.RepositoryView$$State$ShowInfoCommand
+ru/gendalf13666/popularlibraries/databinding/UsersFragmentBinding.java
+ ru.gendalf13666.popularlibraries.databinding.UsersFragmentBinding
+ru/gendalf13666/popularlibraries/helpers/di/modules/ApiModule_ProvideBaseUrlFactory.java
+ ru.gendalf13666.popularlibraries.helpers.di.modules.ApiModule_ProvideBaseUrlFactory
+moxy/MvpView$$State.java
+ moxy.MvpView$$State
+ru/gendalf13666/popularlibraries/baselogic/main/MainActivity_MembersInjector.java
+ ru.gendalf13666.popularlibraries.baselogic.main.MainActivity_MembersInjector
+ru/gendalf13666/popularlibraries/data/repositories/GithubUsersRepositoryImpl_Factory.java
+ ru.gendalf13666.popularlibraries.data.repositories.GithubUsersRepositoryImpl_Factory
+ru/gendalf13666/popularlibraries/helpers/di/modules/ApiModule_ProvideGithubApiFactory.java
+ ru.gendalf13666.popularlibraries.helpers.di.modules.ApiModule_ProvideGithubApiFactory
+ru/gendalf13666/popularlibraries/databinding/MainItemViewBinding.java
+ ru.gendalf13666.popularlibraries.databinding.MainItemViewBinding
+ru/gendalf13666/popularlibraries/databinding/UserFragmentBinding.java
+ ru.gendalf13666.popularlibraries.databinding.UserFragmentBinding
+ru/gendalf13666/popularlibraries/baselogic/user/UserView$$State.java
+ ru.gendalf13666.popularlibraries.baselogic.user.UserView$$State
+ ru.gendalf13666.popularlibraries.baselogic.user.UserView$$State$InitCommand
+ ru.gendalf13666.popularlibraries.baselogic.user.UserView$$State$ShowExceptionCommand
+ ru.gendalf13666.popularlibraries.baselogic.user.UserView$$State$ShowUserCommand
+ ru.gendalf13666.popularlibraries.baselogic.user.UserView$$State$UpdateRepositoryListCommand
+ru/gendalf13666/popularlibraries/baselogic/users/UsersPresenter$$ViewStateProvider.java
+ ru.gendalf13666.popularlibraries.baselogic.users.UsersPresenter$$ViewStateProvider
+ru/gendalf13666/popularlibraries/databinding/RepositoryItemViewBinding.java
+ ru.gendalf13666.popularlibraries.databinding.RepositoryItemViewBinding
+ru/gendalf13666/popularlibraries/helpers/di/modules/UIModule_BindUsersFragment.java
+ ru.gendalf13666.popularlibraries.helpers.di.modules.UIModule_BindUsersFragment
+ ru.gendalf13666.popularlibraries.helpers.di.modules.UIModule_BindUsersFragment$UsersFragmentSubcomponent
+ ru.gendalf13666.popularlibraries.helpers.di.modules.UIModule_BindUsersFragment$UsersFragmentSubcomponent$Factory
+ru/gendalf13666/popularlibraries/helpers/di/BaseDaggerFragment_MembersInjector.java
+ ru.gendalf13666.popularlibraries.helpers.di.BaseDaggerFragment_MembersInjector
+ru/gendalf13666/popularlibraries/helpers/di/modules/UIModule_BindMainActivity.java
+ ru.gendalf13666.popularlibraries.helpers.di.modules.UIModule_BindMainActivity
+ ru.gendalf13666.popularlibraries.helpers.di.modules.UIModule_BindMainActivity$MainActivitySubcomponent
+ ru.gendalf13666.popularlibraries.helpers.di.modules.UIModule_BindMainActivity$MainActivitySubcomponent$Factory
+ru/gendalf13666/popularlibraries/data/db/dao/GithubUserDao_Impl.java
+ ru.gendalf13666.popularlibraries.data.db.dao.GithubUserDao_Impl
+ ru.gendalf13666.popularlibraries.data.db.dao.GithubUserDao_Impl$1
+ ru.gendalf13666.popularlibraries.data.db.dao.GithubUserDao_Impl$2
+ ru.gendalf13666.popularlibraries.data.db.dao.GithubUserDao_Impl$3
+ru/gendalf13666/popularlibraries/baselogic/users/UsersFragment_MembersInjector.java
+ ru.gendalf13666.popularlibraries.baselogic.users.UsersFragment_MembersInjector
+ru/gendalf13666/popularlibraries/helpers/di/BaseDaggerActivity_MembersInjector.java
+ ru.gendalf13666.popularlibraries.helpers.di.BaseDaggerActivity_MembersInjector
+ru/gendalf13666/popularlibraries/baselogic/user/UserFragment_MembersInjector.java
+ ru.gendalf13666.popularlibraries.baselogic.user.UserFragment_MembersInjector
+ru/gendalf13666/popularlibraries/helpers/di/modules/UIModule_BindRepositoryFragment.java
+ ru.gendalf13666.popularlibraries.helpers.di.modules.UIModule_BindRepositoryFragment
+ ru.gendalf13666.popularlibraries.helpers.di.modules.UIModule_BindRepositoryFragment$RepositoryFragmentSubcomponent
+ ru.gendalf13666.popularlibraries.helpers.di.modules.UIModule_BindRepositoryFragment$RepositoryFragmentSubcomponent$Factory
+ru/gendalf13666/popularlibraries/baselogic/users/UsersView$$State.java
+ ru.gendalf13666.popularlibraries.baselogic.users.UsersView$$State
+ ru.gendalf13666.popularlibraries.baselogic.users.UsersView$$State$InitCommand
+ ru.gendalf13666.popularlibraries.baselogic.users.UsersView$$State$ShowExceptionCommand
+ ru.gendalf13666.popularlibraries.baselogic.users.UsersView$$State$UpdateListCommand
+ru/gendalf13666/popularlibraries/databinding/MainActivityBinding.java
+ ru.gendalf13666.popularlibraries.databinding.MainActivityBinding
+ru/gendalf13666/popularlibraries/data/db/cache/GithubCacheImpl_Factory.java
+ ru.gendalf13666.popularlibraries.data.db.cache.GithubCacheImpl_Factory
+ru/gendalf13666/popularlibraries/baselogic/userrepositories/RepositoryPresenter$$ViewStateProvider.java
+ ru.gendalf13666.popularlibraries.baselogic.userrepositories.RepositoryPresenter$$ViewStateProvider
+ru/gendalf13666/popularlibraries/helpers/di/modules/UIModule_BindUserFragment.java
+ ru.gendalf13666.popularlibraries.helpers.di.modules.UIModule_BindUserFragment
+ ru.gendalf13666.popularlibraries.helpers.di.modules.UIModule_BindUserFragment$UserFragmentSubcomponent
+ ru.gendalf13666.popularlibraries.helpers.di.modules.UIModule_BindUserFragment$UserFragmentSubcomponent$Factory
+ru/gendalf13666/popularlibraries/baselogic/BasePresenter$$ViewStateProvider.java
+ ru.gendalf13666.popularlibraries.baselogic.BasePresenter$$ViewStateProvider
+ru/gendalf13666/popularlibraries/data/db/AppDB_Impl.java
+ ru.gendalf13666.popularlibraries.data.db.AppDB_Impl
+ ru.gendalf13666.popularlibraries.data.db.AppDB_Impl$1
+ru/gendalf13666/popularlibraries/helpers/di/modules/DBModule_ProvideAppDBFactory.java
+ ru.gendalf13666.popularlibraries.helpers.di.modules.DBModule_ProvideAppDBFactory
+ru/gendalf13666/popularlibraries/BuildConfig.java
+ ru.gendalf13666.popularlibraries.BuildConfig
+ru/gendalf13666/popularlibraries/baselogic/main/MainView$$State.java
+ ru.gendalf13666.popularlibraries.baselogic.main.MainView$$State
+ru/gendalf13666/popularlibraries/helpers/NetworkStatusImpl_Factory.java
+ ru.gendalf13666.popularlibraries.helpers.NetworkStatusImpl_Factory
+ru/gendalf13666/popularlibraries/databinding/RepositoryFragmentBinding.java
+ ru.gendalf13666.popularlibraries.databinding.RepositoryFragmentBinding
